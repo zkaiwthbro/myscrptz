@@ -2,10 +2,10 @@
 -- Loads: Starflower ESP, Waypoint Walker, Gather , Reset
 
 local scripts = {
-    "https://github.com/zkaiwthbro/myscrptz/blob/main/hold%20left",
-    "https://github.com/zkaiwthbro/myscrptz/blob/main/movement",
-    "https://github.com/zkaiwthbro/myscrptz/blob/main/reset",
-    "https://github.com/zkaiwthbro/myscrptz/blob/main/sfesp",
+    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/holdleft.lua",
+    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/movement.lua",
+    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/reset.lua",
+    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/sfesp.lua",
 }
 
 for i, url in ipairs(scripts) do
