@@ -1,10 +1,11 @@
 -- ================ Loader ================
--- Loads: Starflower ESP, Waypoint Walker, Script3
+-- Loads: Starflower ESP, Waypoint Walker, Gather , Reset
 
 local scripts = {
-    "https://raw.githubusercontent.com/YourUsername/roblox-scripts/main/starflower.lua",
-    "https://raw.githubusercontent.com/YourUsername/roblox-scripts/main/walker.lua",
-    "https://raw.githubusercontent.com/YourUsername/roblox-scripts/main/script3.lua",
+    "https://github.com/zkaiwthbro/myscrptz/blob/main/hold%20left",
+    "https://github.com/zkaiwthbro/myscrptz/blob/main/movement",
+    "https://github.com/zkaiwthbro/myscrptz/blob/main/reset",
+    "https://github.com/zkaiwthbro/myscrptz/blob/main/sfesp",
 }
 
 for i, url in ipairs(scripts) do
