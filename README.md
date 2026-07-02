@@ -1,0 +1,2 @@
+# myscrptz
+yes
