@@ -14,7 +14,7 @@ end)
 
 -- Infinite loop (survives respawns since it's a LocalScript)
 while true do
-	task.wait(60) -- 3 minutes
+	task.wait(300) -- 3 minutes
 	
 	if toggled then
 		local character = player.Character
