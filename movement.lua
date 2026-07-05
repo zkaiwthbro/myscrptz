@@ -460,6 +460,14 @@ end
 -- ========== MAIN LOOP (with human-like idle) ==========
 task.spawn(function()
     while true do
+        if walking and #points > 0 then
+            for i, point in ipairs(points) do
+                if not walking then break end
+                walkTo(point)
+                -- short randomized pause between points
+                task.wait(0.35 + math.random() * 0.3)
+            end
+
             -- Short break after finishing full route (2-5 sec)
             if walking then
                 task.wait(2 + math.random() * 3)
