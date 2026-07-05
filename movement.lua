@@ -460,28 +460,6 @@ end
 -- ========== MAIN LOOP (with human-like idle) ==========
 task.spawn(function()
     while true do
-        if walking and #points > 0 then
-            for i, point in ipairs(points) do
-                if not walking then break end
-                
-                walkTo(point)
-                
-                -- Random pause between waypoints (200-600ms — humans naturally hesitate)
-                task.wait(0.2 + math.random() * 0.4)
-                
-                -- 3% chance to briefly pause (2-6 sec — "checking inventory")
-                if math.random() < 0.03 then
-                    print("[HumanSim] Short pause...")
-                    task.wait(2 + math.random() * 4)
-                end
-                
-                -- 1% chance for longer idle (10-25 sec — "AFK moment")
-                if math.random() < 0.01 then
-                    print("[HumanSim] Longer idle...")
-                    task.wait(10 + math.random() * 15)
-                end
-            end
-            
             -- Short break after finishing full route (2-5 sec)
             if walking then
                 task.wait(2 + math.random() * 3)
