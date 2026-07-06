@@ -1,5 +1,3 @@
--- ================ Loader ================
--- Loads: Starflower ESP, Waypoint Walker, Gather , Reset
 
 local scripts = {
     "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/holdleft.lua",
