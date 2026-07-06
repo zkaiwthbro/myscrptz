@@ -1,4 +1,3 @@
--- LocalScript in StarterPlayerScripts
 local UIS = game:GetService("UserInputService")
 local VIM = game:GetService("VirtualInputManager")
 local RunService = game:GetService("RunService")
