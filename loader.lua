@@ -1,9 +1,8 @@
 
 local scripts = {
-    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/holdleft.lua",
-    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/movement.lua",
-    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/reset.lua",
-    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/main/sfesp.lua",
+    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/refs/heads/main/holdleft.lua",
+    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/refs/heads/main/movement.lua",
+    "https://raw.githubusercontent.com/zkaiwthbro/myscrptz/refs/heads/main/reset.lua"
 }
 
 for i, url in ipairs(scripts) do
