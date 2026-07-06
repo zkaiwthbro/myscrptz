@@ -10,7 +10,7 @@ local SAVE_FILE = "waypoints_" .. game.PlaceId .. ".json"
 local points = {}
 local walking = false
 
--- ========== CONTROL MODULE HOOK (works minimized) ==========
+
 local PlayerModule = require(player:WaitForChild("PlayerScripts"):WaitForChild("PlayerModule"))
 local ControlModule = PlayerModule:GetControls()
 
